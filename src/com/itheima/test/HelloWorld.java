@@ -6,6 +6,6 @@ public class HelloWorld {
         System.out.println("hello git");
         System.out.println("hello git");
         System.out.println("hello git !");
-        System.out.println("hello git4 !");
+        System.out.println("feature test !");
     }
 }
