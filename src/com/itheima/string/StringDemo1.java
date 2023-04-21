@@ -2,8 +2,6 @@ package com.itheima.string;
 
 import com.itheima.domain.Student;
 
-import java.util.Locale;
-
 public class StringDemo1 {
     public static void main(String[] args) {
         /*
