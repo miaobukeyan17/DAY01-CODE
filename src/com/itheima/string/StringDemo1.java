@@ -19,7 +19,7 @@ public class StringDemo1 {
         System.out.println(s);
         Student stu = new Student(23,"张三");
         stu = new Student(24,"李四");
-        System.out.println(stu.getNaem() + "-----" + stu.getAge());
+        System.out.println(stu.getName() + "-----" + stu.getAge());
         String s1 = "abc";
         String s2 = "abc";
 //String 是引用数据类型 故比较的是地址
