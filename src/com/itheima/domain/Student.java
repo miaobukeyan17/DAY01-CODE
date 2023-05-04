@@ -9,14 +9,14 @@ public class Student {
 
      */
     private int age;
-    private String naem;
+    private String name;
 
     public Student() {
     }
 
     public Student(int age, String naem) {
         this.age = age;
-        this.naem = naem;
+        this.name = naem;
     }
 
     /**
@@ -39,19 +39,19 @@ public class Student {
      * 获取
      * @return naem
      */
-    public String getNaem() {
-        return naem;
+    public String getName() {
+        return name;
     }
 
     /**
      * 设置
-     * @param naem
+     * @param name
      */
-    public void setNaem(String naem) {
-        this.naem = naem;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String toString() {
-        return "Student{age = " + age + ", naem = " + naem + "}";
+        return "Student{age = " + age + ", naem = " + name + "}";
     }
 }
